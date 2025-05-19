@@ -1,0 +1,50 @@
+.chatButtonContainer {
+  background: linear-gradient(90deg, #2e2ee7, #921cc9);
+  width: fit-content;
+  z-index: 99999999;
+}
+
+.chatButton {}
+
+.chatbotPopup {
+  width: 500px;
+}
+
+.chatHeader {
+  background: linear-gradient(90deg, #9a9aff, #d791ff);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: whitesmoke;
+}
+
+#chatbotContainer {
+  /* background-color: red; */
+  width: 100%;
+  max-width: 400px;
+}
+
+.chatBody {}
+
+.card {
+  height: 500px;
+}
+
+.messageContainer {
+  background-color: #e9e9e9;
+  height: fit-content;
+  max-height: 70%;
+  width: fit-content;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 70%;
+  overflow: hidden;
+}
+
+.sendButton {
+  background: linear-gradient(90deg, #0000ffa6, #9a00f3a1);
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,21 @@
+.card {
+  background-color: #c6deff25;
+  border-color: whitesmoke;
+
+  .icon {
+    color: white;
+    background: linear-gradient(90deg, #2b2be7, #9905fc);
+    padding: 10px;
+    border-radius: 7px;
+  }
+
+  .title {
+    font-family: "Trebuchet MS";
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-family: "Trebuchet MS";
+    font-size: 0.9rem;
+  }
+}

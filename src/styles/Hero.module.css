@@ -1,0 +1,9 @@
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px; /* Adjust as needed */
+  background: linear-gradient(90deg, #a322c4, #0029e2); /* Gradient colors */
+  -webkit-background-clip: text; /* Clips the background to the text */
+  background-clip: text;
+  color: transparent; /* Makes the text transparent to show the gradient */
+  text-transform: uppercase; /* Optional: Makes the text uppercase */
+}

@@ -1,4 +1,8 @@
 export interface IconProps {
-    iconStyle: string;
-    name: string;
+    className?: string;
+    onClick?: () => void;
+}
+
+export interface IconSimpleProps {
+    className?: string;
 }

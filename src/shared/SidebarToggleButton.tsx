@@ -1,15 +1,14 @@
-import { useSidebarEffect } from "../services/useSideBarEffect";
-import { useSidebarStore } from "../services/useSidebarStore";
-import Button from './Button';
 
-export default function SideBarToggleButton()
-{
-    const toggleSidebar = useSidebarStore( ( state ) => state.toggleSidebar )
+import { useSideBarStore } from "../services/useSideBarStore";
+import { useSidebarEffect } from "../services/useSidebarEffect";
+import { IconButton } from "./Buttons";
+
+export default function SideBbarToggleButton() {
+    const toggleSidebar = useSideBarStore((state) => state.toggleSidebar)
     useSidebarEffect()
-
     return (
         <>
-            <Button buttonText={""} style={[ { buttonStyle: 'btn-transparent border-0 btn' }, { iconStyle: 'bi bi-list' } ]} onClick={() => toggleSidebar()} />
+            <IconButton text={""} className="btn-transparent border-0 btn" icon={"bi bi-list"} onClick={() => toggleSidebar()} />
         </>
     )
 }

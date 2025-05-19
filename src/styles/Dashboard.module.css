@@ -1,0 +1,41 @@
+body {
+    font-family: "Trebuchet MS";
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.dashboardContent {
+}
+
+.dashboardContent header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboardContent h1 {
+    margin: 0;
+}
+
+.dashboardContent p {
+    margin: 0;
+    color: #6c757d;
+}
+
+.dashboardHeader {
+}
+
+.filterButton {
+    background-color: transparent;
+    border: 0.2px solid #0000002d;
+    border-radius: 5px;
+}
+
+.filterButton:focus {
+    background-color: #ac7cff67;
+    border: 0.2px solid #ac7cff67;
+    color: whitesmoke;
+}

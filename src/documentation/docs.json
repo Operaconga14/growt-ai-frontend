@@ -1,0 +1,79 @@
+{
+  "name": "Growth AI",
+  "description": "Growth AI Documentation Site",
+  "theme": {
+    "primary": "#7a3ae8"
+  },
+  "logo": {
+    "light": "https://ik.imagekit.io/mugivies/Growth%20AI/Logo/new%20logo_jSqbppNX7?updatedAt=1747399220751",
+    "dark": "https://ik.imagekit.io/mugivies/Growth%20AI/Logo/new%20logo_jSqbppNX7?updatedAt=1747399220751"
+  },
+  "sidebar": [
+    {
+      "group": "Growth AI",
+      "tab": "root",
+      "pages": [
+        {
+          "title": "Growth AI Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "title": "Introduction",
+          "href": "/introduction",
+          "icon": "info"
+        },
+        {
+          "title": "Setting Started",
+          "href": "/getting-started",
+          "icon": "rocket"
+        },
+        {
+          "title": "Creating Challenge",
+          "href": "/creating-challenge",
+          "icon": "edit"
+        },
+        {
+          "title": "Daily and Weekly CheckIns",
+          "href": "/daily-checkins",
+          "icon": "check"
+        },
+        {
+          "title": "Using the AI Assistant",
+          "href": "/using-assistant",
+          "icon": "terminal"
+        },
+        {
+          "title": "Dashboard and Progress Tracking",
+          "href": "/progress-tracking",
+          "icon": "bar-chart"
+        },
+        {
+          "title": "Group Challenge and Community Fetures",
+          "href": "/community-features",
+          "icon": "users"
+        },
+        {
+          "title": "Security and Account Management",
+          "href": "/account-management",
+          "icon": "lock"
+        },
+        {
+          "title": "Frequently Asked Questions",
+          "href": "/frequently-asked",
+          "icon": "flag"
+        },
+        {
+          "title": "Future Features and RoadMap",
+          "href": "/future-roadmap",
+          "icon": "map"
+        },
+        {
+          "title": "Support and Contact",
+          "href": "/support",
+          "icon": "message"
+        }
+      ]
+    }
+  ]
+}

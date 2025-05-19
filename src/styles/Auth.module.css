@@ -1,0 +1,42 @@
+.body {
+  background: linear-gradient(90deg, #0029e252, #a422c450);
+}
+.h1 {
+  font-size: 100px;
+  background: linear-gradient(90deg, #a322c4, #0029e2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: transparent;
+  border-color: #f0f8ff18;
+  width: 80%;
+  max-width: 480px;
+  font-family: 'Trebuchet MS';
+}
+
+.formControl {
+  background-color: transparent !important;
+  color: whitesmoke;
+  font-family: "Trebuchet MS";
+}
+
+.formControl::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: whitesmoke;
+  font-family: "Trebuchet MS";
+}
+
+.formControl:focus {
+  color: whitesmoke;
+}
+
+.formLabel {
+  color: whitesmoke;
+  font-weight: 700;
+  font-family: "Trebuchet MS";
+}

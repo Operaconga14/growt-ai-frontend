@@ -1,0 +1,16 @@
+/* Style for the NavLink container */
+.logoContainer {
+  width: 180px; /* Adjust as needed */
+  height: 50px; /* Fixed height for the container */
+  display: inline-block;
+  position: relative;
+  overflow: hidden; /* Prevents content from spilling out */
+}
+
+/* Style for the Image */
+.logo {
+  width: 100%; /* Ensures the image fills the container horizontally */
+  height: 100%; /* Ensures the image fills the container vertically */
+  display: block; /* Removes any extra space below the image */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}

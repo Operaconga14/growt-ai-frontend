@@ -1,103 +1,82 @@
-import CardWithIcons from "../shared/CardWithIcons";
+import { CustomCard } from "../shared/Cards"
+import styles from "../styles/Card.module.css"
 
-export default function HomeFetures()
-{
-    return (
-        <section className="features-section container">
-            <div className="text-center">
-                <h2 className='fw-bolder'>Powerful Features to Accelerate Your Growth</h2>
-                <p className='text-muted'>
-                    Our platform combines cutting-edge AI with proven personal development techniques to help you achieve your goals faster.
-                </p>
-            </div>
-            <div className="row mt-4 justify-content-center">
-                <div className="col-sm-12 col-md-5 col-lg-3 m-1">
-                    <CardWithIcons
-                        styles={[
-                            { iconStyle: 'bg-gradient-primary p-2 rounded text-white fw-bolder' },
-                            { cardStyle: 'card border-0 shadow-sm bg-blue-light p-0 text-start' },
-                            { cardBodyStyle: 'card-body pt-4' },
-                            { titleStyle: 'fw-bolder fs-6' },
-                            { descriptionStyle: 'small text-muted py-0 my-0' },
-                            { otherStyle: 'mt-4' }
-                        ]}
-                        texts={[
-                            { titleText: 'Virtual Progress Tracking' },
-                            { descriptionText: 'Hello' },
-                            { iconName: 'bi bi-bar-chart-line' }
-                        ]} />
+export default function Features() {
+    return <div className="container">
+        <div className="text-center">
+            <h1 className="fw-bolder">Powerful Features to Accelerate Your Growth</h1>
+            <small className="text-muted">Our Platform combines cutting-edge AI with proven personal development <br />
+                techniques to help you achieve your goals faster
+            </small>
+        </div>
+        <div className="mt-5 m-0 p-0 mb-5">
+            <div className="row justify-content-center d-flex gap-4">
+                <div className="col-sm-12 col-md-4 col-lg-3">
+                    <CustomCard
+                        className={`${styles.card} pt-3 shadow-sm`}
+                        description="Track your progress with beautiful charts and visualization that keep you motivated"
+                        icon={`${styles.icon} bi bi-bar-chart-line`}
+                        title="Visual Progress Tracking"
+                        titleClassName={`fw-bolder mt-4 ${styles.title}`}
+                        descriptionClassName={`small text-muted ${styles.description}`}
+                    />
                 </div>
-                <div className="col-sm-12 col-md-5 col-lg-3 m-1">
-                    <CardWithIcons styles={[
-                        { iconStyle: 'bg-gradient-primary p-2 rounded text-white fw-bolder' },
-                        { cardStyle: 'card border-0 shadow-sm bg-blue-light p-0 text-start' },
-                        { cardBodyStyle: 'card-body pt-4' },
-                        { titleStyle: 'fw-bolder fs-6' },
-                        { descriptionStyle: 'small text-muted py-0 my-0' },
-                        { otherStyle: 'mt-4' }
-                    ]} texts={[
-                        { titleText: 'AI Coachimg Assistance' },
-                        { descriptionText: '' },
-                        { iconName: 'bi bi-chat' }
-                    ]} />
+                <div className="col-sm-12 col-md-4 col-lg-3">
+                    <CustomCard
+                        className={`${styles.card} pt-3 shadow-sm`}
+                        description="Track your progress with beautiful charts and visualization that keep you motivated"
+                        icon={`${styles.icon} bi bi-bar-chart-line`}
+                        title="Visual Progress Tracking"
+                        titleClassName={`fw-bolder mt-4 ${styles.title}`}
+                        descriptionClassName={`small text-muted ${styles.description}`}
+                        cardBodyClassName="bg-transparent"
+                    />
                 </div>
-                <div className="col-sm-12 col-md-5 col-lg-3 m-1">
-                    <CardWithIcons styles={[
-                        { iconStyle: 'bg-gradient-primary p-2 rounded text-white fw-bolder' },
-                        { cardStyle: 'card border-0 shadow-sm bg-blue-light p-0 text-start' },
-                        { cardBodyStyle: 'card-body pt-4' },
-                        { titleStyle: 'fw-bolder fs-6' },
-                        { descriptionStyle: 'small text-muted py-0 my-0' },
-                        { otherStyle: 'mt-4' }
-                    ]} texts={[
-                        { titleText: 'Smart Scheduling' },
-                        { descriptionText: '' },
-                        { iconName: 'bi bi-calendar' }
-                    ]} />
+                <div className="col-sm-12 col-md-4 col-lg-3">
+                    <CustomCard
+                        className={`${styles.card} pt-3 shadow-sm`}
+                        description="Track your progress with beautiful charts and visualization that keep you motivated"
+                        icon={`${styles.icon} bi bi-bar-chart-line`}
+                        title="Visual Progress Tracking"
+                        titleClassName={`fw-bolder mt-4 ${styles.title}`}
+                        descriptionClassName={`small text-muted ${styles.description}`}
+                        cardBodyClassName="bg-transparent"
+                    />
                 </div>
-                <div className="col-sm-12 col-md-5 col-lg-3 m-1">
-                    <CardWithIcons styles={[
-                        { iconStyle: 'bg-gradient-primary p-2 rounded text-white fw-bolder' },
-                        { cardStyle: 'card border-0 shadow-sm bg-blue-light p-0 text-start' },
-                        { cardBodyStyle: 'card-body pt-4' },
-                        { titleStyle: 'fw-bolder fs-6' },
-                        { descriptionStyle: 'small text-muted py-0 my-0' },
-                        { otherStyle: 'mt-4' }
-                    ]} texts={[
-                        { titleText: 'Achievement System' },
-                        { descriptionText: '' },
-                        { iconName: 'bi-award bi' }
-                    ]} />
+                <div className="col-sm-12 col-md-4 col-lg-3">
+                    <CustomCard
+                        className={`${styles.card} pt-3 shadow-sm`}
+                        description="Track your progress with beautiful charts and visualization that keep you motivated"
+                        icon={`${styles.icon} bi bi-bar-chart-line`}
+                        title="Visual Progress Tracking"
+                        titleClassName={`fw-bolder mt-4 ${styles.title}`}
+                        descriptionClassName={`small text-muted ${styles.description}`}
+                        cardBodyClassName="bg-transparent"
+                    />
                 </div>
-                <div className="col-sm-12 col-md-5 col-lg-3 m-1">
-                    <CardWithIcons styles={[
-                        { iconStyle: 'bg-gradient-primary p-2 rounded text-white fw-bolder' },
-                        { cardStyle: 'card border-0 shadow-sm bg-blue-light p-0 text-start' },
-                        { cardBodyStyle: 'card-body pt-4' },
-                        { titleStyle: 'fw-bolder fs-6' },
-                        { descriptionStyle: 'small text-muted py-0 my-0' },
-                        { otherStyle: 'mt-4' }
-                    ]} texts={[
-                        { titleText: 'Smart Reminders' },
-                        { descriptionText: '' },
-                        { iconName: 'bi-bell bi' }
-                    ]} />
+                <div className="col-sm-12 col-md-4 col-lg-3">
+                    <CustomCard
+                        className={`${styles.card} pt-3 shadow-sm`}
+                        description="Track your progress with beautiful charts and visualization that keep you motivated"
+                        icon={`${styles.icon} bi bi-bar-chart-line`}
+                        title="Visual Progress Tracking"
+                        titleClassName={`fw-bolder mt-4 ${styles.title}`}
+                        descriptionClassName={`small text-muted ${styles.description}`}
+                        cardBodyClassName="bg-transparent"
+                    />
                 </div>
-                <div className="col-sm-12 col-md-5 col-lg-3 m-1">
-                    <CardWithIcons styles={[
-                        { iconStyle: 'bg-gradient-primary p-2 rounded text-white fw-bolder' },
-                        { cardStyle: 'card border-0 shadow-sm bg-blue-light p-0 text-start' },
-                        { cardBodyStyle: 'card-body pt-4' },
-                        { titleStyle: 'fw-bolder fs-6' },
-                        { descriptionStyle: 'small text-muted py-0 my-0' },
-                        { otherStyle: 'mt-4' }
-                    ]} texts={[
-                        { titleText: 'Growth Analytics' },
-                        { descriptionText: 'Get insigth into your patterns and progress with detailed analytics' },
-                        { iconName: 'bi-graph-up-arrow bi' }
-                    ]} />
+                <div className="col-sm-12 col-md-4 col-lg-3">
+                    <CustomCard
+                        className={`${styles.card} pt-3 shadow-sm`}
+                        description="Track your progress with beautiful charts and visualization that keep you motivated"
+                        icon={`${styles.icon} bi bi-bar-chart-line`}
+                        title="Visual Progress Tracking"
+                        titleClassName={`fw-bolder mt-4 ${styles.title}`}
+                        descriptionClassName={`small text-muted ${styles.description}`}
+                        cardBodyClassName="bg-transparent"
+                    />
                 </div>
             </div>
-        </section>
-    )
+        </div>
+    </div >
 }

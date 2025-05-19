@@ -1,0 +1,11 @@
+.body {
+  background: linear-gradient(90deg, #0029e252, #a422c450);
+}
+.h1 {
+  font-size: 100px;
+  background: linear-gradient(90deg, #a322c4, #0029e2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}

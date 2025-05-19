@@ -1,9 +1,10 @@
-import type { IconProps } from "../props/IconProps";
+import { IconProps } from "../props/IconProps";
 
-
-export default function Icon( { iconStyle, name }: IconProps )
-{
-    return (
-        <i className={`${name} ${iconStyle}`} ></i>
-    )
+export default function Icon({ className, onClick }: IconProps) {
+  return (
+    <div>
+      <i className={`${className}`} onClick={onClick}></i>
+    </div>
+  );
 }
+

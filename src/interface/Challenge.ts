@@ -4,6 +4,7 @@ export interface Challenge {
     title: string;
     description: string;
     progress: number;
+    challengeDays: number;
     daysLeft: number;
     streak: number;
 }
