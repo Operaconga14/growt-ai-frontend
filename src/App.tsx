@@ -7,7 +7,8 @@ import DashboardLayout from "./layout/DashboardLayout";
 import Dashboard from "./pages/dashboard/Dashboard";
 import NotFound from "./components/404";
 
-export default function App() {
+export default function App()
+{
   return (
     <Routes>
       {/* Public route */}
