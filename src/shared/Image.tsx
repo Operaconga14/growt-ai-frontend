@@ -1,6 +1,7 @@
-import ImageProps from "../props/ImageProps";
+import { ImageProps } from "../props/ImageProps";
 
-export default function Image({ src, altText, className, styles, onClick }: ImageProps) {
+export default function Image( { src, altText, className, styles, onClick }: ImageProps )
+{
   return (
     <>
       <img
