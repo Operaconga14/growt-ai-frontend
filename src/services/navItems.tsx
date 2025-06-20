@@ -35,7 +35,7 @@ export const navItems = [
     },
     {
         name: "Settings",
-        to: "/settings",
+        to: "/dashboard/settings",
         icon: <Icon className={"bi bi-sliders"} />,
     },
 ];

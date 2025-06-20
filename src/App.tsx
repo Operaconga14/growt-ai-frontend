@@ -6,6 +6,7 @@ import HomeLayout from "./layout/HomeLayout";
 import DashboardLayout from "./layout/DashboardLayout";
 import Dashboard from "./pages/dashboard/Dashboard";
 import NotFound from "./components/404";
+import Profile from "./pages/dashboard/settings/Profile";
 
 export default function App()
 {
@@ -22,13 +23,13 @@ export default function App()
       {/* Private Route */}
       <Route element={<DashboardLayout />}>
         <Route path="/dashboard" element={<Dashboard />} />
-        {/* <Route path="/dashboard/profile" element={<h1>Profile</h1>} />
-        <Route path="/dashboard/settings" element={<h1>Settings</h1>} />
-        <Route path="/dashboard/challenges" element={<h1>Challenges</h1>} />
-        <Route path="/dashboard/challenges/:id" element={<h1>Challenge</h1>} />
-        <Route path="/dashboard/challenges/:id/leaderboard" element={<h1>Leaderboard</h1>} />
-        <Route path="/dashboard/challenges/:id/leaderboard/:id" element={<h1>Leaderboard</h1>} />
-        <Route path="/dashboard/challenges/:id/leaderboard/:id/profile" element={<h1>Profile</h1>} /> */}
+        {/* <Route path="/dashboard/profile" element={<h1>Profile</h1>} /> */}
+        <Route path="/dashboard/settings" element={<Profile />} />
+        {/* <Route path="/dashboard/challenges" element={<h1>Challenges</h1>} /> */}
+        {/* <Route path="/dashboard/challenges/:id" element={<h1>Challenge</h1>} /> */}
+        {/* <Route path="/dashboard/challenges/:id/leaderboard" element={<h1>Leaderboard</h1>} /> */}
+        {/* <Route path="/dashboard/challenges/:id/leaderboard/:id" element={<h1>Leaderboard</h1>} /> */}
+        {/* <Route path="/dashboard/challenges/:id/leaderboard/:id/profile" element={<h1>Profile</h1>} />  */}
       </Route>
 
       {/* Error route */}
